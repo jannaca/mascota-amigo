@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Icono -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mascota Amigo</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Menu de Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" ><img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-2">Mascota Amigo</a>
+                <button class="navbar-toggler border-light-subtle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link link-light" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" aria-current="page" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="clientes.html">Nuestros Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link link-light" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="text-center my-5">
+                <h3 class="fst-italic d-inline-block border-bottom border-warning pb-2">Te traemos consejos y curiosidades para que disfrutes al máximo de la vida junto a tu compañero animal.</h3>
+            </div>
+        </section>
+
+        <section class="container-fluid d-flex justify-content-center caja-presentacion-ser">
+            <div class="py-4 text-center">
+                <h1 class="p-3 text-white">BLOG</h1>
+            </div>
+        </section>
+
+        <section class="container my-5">
+
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <div class="card shadow">
+                        <img src="img/pienso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué cantidad de pienso diaria debe comer tu perro?</h5>
+                            <small class="text-muted">Por Clara García</small>
+                            <p class="card-text mt-2">La cantidad de comida diaria recomendada depende del peso de cada perro. La regla general es que el perro debe comer...</p>
+                            <button type="button" class="btn btn-primary btn-2 border-0" data-bs-toggle="modal" data-bs-target="#articulo-1"> Leer más
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="card shadow">
+                        <img src="img/perro-gato.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Consejos para la convivencia entre perros y gatos</h5>
+                            <small class="text-muted">Por Mariana Méndez</small>
+                            <p class="card-text mt-2">La convivencia entre perros y gatos puede ser una experiencia gratificante y enriquecedora para ambos animales y para sus...</p>
+                            <button type="button" class="btn btn-primary btn-2 border-0" data-bs-toggle="modal" data-bs-target="#articulo-2"> Leer más
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <div class="card shadow">
+                        <img src="img/perroMordiendo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Cómo conseguir que un cachorro deje de morder?</h5>
+                            <small class="text-muted">Por Julian López</small>
+                            <p class="card-text mt-2">Los cachorros son adorables y divertidos… ¡sin duda alguna! Suelen ser muy juguetones cuando son jóvenes porque tienen más energía...</p>
+                            <button type="button" class="btn btn-primary btn-2 border-0" data-bs-toggle="modal" data-bs-target="#articulo-3"> Leer más
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="card shadow">
+                        <img src="img/gatoRascador.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Cómo enseño a mi gato a usar el rascador?</h5>
+                            <small class="text-muted">Por Clara García</small>
+                            <p class="card-text mt-2">Casi todos los gatos tienen la necesidad de rascar materiales, principalmente tejidos o madera. Se trata de un instinto que no pueden evitar porque además...</p>
+                            <button type="button" class="btn btn-primary btn-2 border-0" data-bs-toggle="modal" data-bs-target="#articulo-4"> Leer más
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- MODALS -->
+
+
+        <div class="modals">
+            <div class="modal fade modal-lg" id="articulo-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title " id="exampleModalLabel">¿Qué cantidad de pienso diaria debe comer tu perro?</h3> 
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" name="Cerrar"></button>
+
+                        </div>
+                        <div class="modal-body">
+                            <article>
+                                <img src="img/pienso.jpg" class="img-fluid mb-3" alt="...">
+                                <p>La cantidad de comida diaria recomendada depende del peso de cada perro. La regla general es que el perro debe comer al día el 2-3% de su peso en pienso seco. Por eso, debes saber cuánto pesa tu perro para poder calcular la cantidad.</p>
+                                <p>Además del peso del perro hay que tener en cuenta otros factores como la raza o tipo de perro, el tamaño, la edad o actividad física diaria del animal a la hora de elegir tipo de pienso y dosis. Para cada perro hay unpienso específico con una composición nutricional adaptada a su edad (junior, adulto, senior) y necesidades específicas. Y también la cantidad de pienso debe adaptarse a cada uno.</p>
+                                <p>A continuacion te presentamos una tabla recomendada por Purina Dog Chow que te ayudara a guiarte.</p>
+
+                                <div class="px-5">
+                                    <table class="table text-center table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Peso del perro</th>
+                                                <th scope="col">Cantidad de pienso</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>5 - 12 Kg</td>
+                                                <td>100 - 180 g</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12 - 25 Kg</td>
+                                                <td>180 - 320 g</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25 - 45 Kg</td>
+                                                <td>320 - 500 g</td>
+                                            </tr>
+                                            <tr>
+                                                <td>45 - 70 Kg</td>
+                                                <td>500 - 700 g</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark btn-2 border-0" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade modal-lg" id="articulo-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">Consejos para la convivencia entre perros y gatos</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"name="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <article>
+                                <img src="img/perro-gato.jpg" class="img-fluid mb-3" alt="...">
+                                <p>La convivencia entre perros y gatos puede ser una experiencia gratificante y enriquecedora para ambos animales y para sus dueños. Sin embargo, no siempre es fácil lograr que perros y gatos se lleven bien. Aquí te damos algunos consejos para lograr una buena convivencia entre estas dos especies.</p>
+
+                                <h5>Respetar la organización de cada especie </h5>
+                                <p>Generalmente, los perros viven en manadas mediante una jerarquía establecida. En cambio, los gatos suelen ser animales solitarios y muy territoriales, lo que puede dar pie a ciertos conflictos en la convivencia con perros. Esto quiere decir que es muy importante respetar la jerarquía de una especie y otra sin intervenir continuamente o corregir actitudes que nos parezcan negativas, ya que ellos mismos se organizarán.</p>
+                                <h5>Preséntalos correctamente</h5>
+                                <p>Bajo ningún concepto los obligues a acercarse. Dales su tiempo y espacio. Puede que no lleguen a ser amigos, pero aprenderán a adaptarse y a vivir en armonía.</p>
+                                <h5>Dales de comer en distintas zonas</h5>
+                                <p>Hay que tener en cuenta que tanto los perros como los gatos son animales depredadores, por lo que es muy fácil que alguna vez se peleen por la comida. Para evitarlo, lo mejor es darles de comer por separado, reservando una zona concreta para cada uno de ellos. Y no permitas que uno le quite la comida al otro.</p>
+                                <h5>Ten paciencia y no los castigues</h5>
+                                <p>Aunque perros y gatos pueden convivir en armonía, no es algo que se logra en un día. Es bastante probable que hasta que se acostumbren el uno al otro surjan conflictos. En estas situaciones, no debes castigarlos, sino separarlos momentáneamente hasta que se tranquilicen. Algunos animales pueden tardar más que otros, por lo que es importante armarse de paciencia.</p>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn btn-dark btn-2 border-0" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade modal-lg" id="articulo-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">¿Cómo conseguir que un cachorro deje de morder?</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" name="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <article> <img src="img/perroMordiendo.jpg" class="img-fluid mb-3" alt="...">
+                                <p>Los cachorros son adorables y divertidos… ¡sin duda alguna! Suelen ser muy juguetones cuando son jóvenes porque tienen más energía que los perros mayores. Y aunque son los mejores aliados para combatir el aburrimiento, algunas conductas como morder o «mordernos» constantemente pueden ser problemáticas. Puede parecer un comportamiento tonto e inofensivo al principio, pero es muy importante abordarlo de manera rápida para que esos pequeños mordiscos no se conviertan en algo más grave.</p>
+                                <h5>Una vez que muerde, ¡se acaba el juego!</h5>
+                                <p>Que los cachorros muerdan en algún momento forma parte de un proceso natural. Al fin y al cabo, los cachorros intentan comprender el nuevo mundo que les rodea. Utilizar la boca es la única forma que conocen de hacerlo</p>
+                                <p>Y como con todo en la vida, les servirá de aprendizaje: cuando muerdan, habrá consecuencias. Por supuesto, no vamos a ser duros con ellos. En sus primeras etapas es normal permitirles que mordisqueen, pero cuando sientas que te ha mordido con más fuerza, haz un ruido fuerte para que sepa que te ha hecho daño. Esto le enseñará a jugar contigo pero sin causarte dolor.</p>
+                                <h5>¡Juguetes para morder y otras formas de divertirse!</h5>
+                                <p>Los juguetes para morder son una forma estupenda de animar a un cachorro a utilizar sus instintos naturales sin dañar a nadie. Cuando tu perro comience a morderte puedes tratar de desviar su atención hacia un juguete de este tipo.</p>
+                                <h5>Últimas reflexiones</h5>
+                                <p>Aunque a veces resulte difícil decir que no a nuestro cachorro o dejar de jugar con él, será la manera de enseñarle la manera más saludable de relacionarse con los demás. Premiarle cuando deje de hacerlo ayudará a que mejore ya que los refuerzos positivos crean un entorno de aprendizaje sano.</p>
+                                <p>Como suele ocurrir con la educación de los perros, nada se consigue sin constancia. A medida que nuestro cachorro crezca sabrá reconocer mejor tus señales hacia sus acciones y se establecerá un vínculo muy fuerte entre vosotros. Y en poco tiempo, ¡los mordiscos serán cosa del pasado!</p>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn btn-dark btn-2 border-0" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade modal-lg" id="articulo-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">¿Cómo enseño a mi gato a usar el rascador?</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                name="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <article>
+                                <img src="img/gatoRascador.jpg" class="img-fluid mb-3" alt="Gatos acostados">
+                                <p>Casi todos los gatos tienen la necesidad de rascar materiales, principalmente tejidos o madera. Se trata de un instinto que no pueden evitar porque además de afilarse las uñas, rascar es parte del proceso para marcar el territorio. Esto contribuye a la salud mental y emocional de tu gato.</p>
+                                <p>Al rascar, los gatos dejan el olor de las glándulas que tienen en sus patas y por eso es habitual que, una vez que arañan un objeto, vuelvan al mismo lugar días más tarde para reforzar su olor y su marca. En estos casos, lo más importante es no luchar contra su instinto, sino enseñarles a que existen lugares apropiados donde pueden dar rienda suelta a su necesidad, como por ejemplo, el rascador. </p>
+                                <h4>Consejos para que tu gato utilice el rascador</h4>
+                                <p>Hemos recopilado algunos consejos más que te pueden servir de ayuda para enseñar a tu mascota a usar el rascador para gatos:</p>
+                                <h5> Dale ejemplo a tu gato</h5>
+                                <p>Rasca varias veces al día sobre el rascador para gatos de forma que se escuche bien cuando lo hagas y se note donde lo has hecho. Esto te ayudará a llamar la atención de tu gato, incluso puedes jugar con él hasta que acabe rascando el mástil por sí mismo.</p>
+                                <h5>Busca el sitio perfecto para el rascador</h5>
+                                <p>Localiza el sitio favorito de tu gato para afilar sus uñas o el mueble que le encanta arañar y coloca justo en este sitio el rascador para gatos, de esta forma la próxima vez que vaya a arañar este lugar, su olor quedará impregnado en el rascador. Tu mascota usará el rascador para gatos poco a poco cada vez más ya que reconocerá su olor en él. En caso de tratarse del sofá también puedes aplicar este consejo utilizando algo más específico como los rascadores para sofá.</p>
+                                <h5>Prémialo cuando arañe el rascador</h5>
+                                <p>Otro consejo muy útil es premiar a tu amigo gatuno cuando arañe el rascador para gatos, lo use para afilar sus uñas o incluso juegue con él. Este refuerzo positivo debes hacerlo inmediatamente para que el gato lo relacione con el uso del rascador para gatos.</p>
+                                <h5>Coloca el rascador en un sitio tranquilo</h5>
+                                <p>Este es nuestro último consejo y uno de los más importantes. Al rascar, tu gato también está estirando sus músculos y liberando estrés por lo que es una actividad rutinaria y para la que necesita paz y tranquilidad.</p>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn btn-dark btn-2 border-0" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <section class="container p-5">
+            <div class="row">
+                <div class="text-center col-md-6 text-md-start">
+                    <p class="m-0">&copy 2023 Mascota Amigo. Todos los derechos reservados.</p>
+                    <a href="contacto.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a>
+                    <p class="m-0">info@mascotamigo.com</p>
+                </div>
+                <div class="text-center col-md-6 text-md-end">
+                    <p class="m-1">Siguenos en nuestras redes sociales:</p>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+
+
+
+</html>

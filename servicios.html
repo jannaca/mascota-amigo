@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Icono -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mascota Amigo</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Menu de Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" ><img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-2">Mascota Amigo</a>
+            <button class="navbar-toggler border-light-subtle" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link link-light" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" aria-current="page" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="clientes.html">Nuestros Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link link-light" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="text-center my-5">
+                <h3 class="fst-italic d-inline-block border-bottom border-warning pb-2"> Equipo altamente capacitado y
+                    experimentado en el cuidado de animales.</h3>
+            </div>
+        </section>
+
+        <section class="container-fluid d-flex justify-content-center caja-presentacion-ser">
+            <div class="py-4 text-center">
+                <h1 class="p-3 text-white">SERVICIOS</h1>
+            </div>
+        </section>
+
+        <section class="container pt-5">
+            <article class="text-center">
+                <h2 class="d-inline-block border-bottom border-warning pb-2" id="veterinaria">Veterinaria</h2>
+                <p> Nuestro equipo de veterinarios altamente capacitados y con una gran experiencia en el cuidado de animales, está comprometido con la salud y el bienestar de sus mascotas. Nos aseguramos de proporcionar un ambiente cálido y acogedor para que tanto usted como su mascota se sientan cómodos mientras están en nuestra clínica.</p>
+            </article>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-lg-1">
+                    <div class="d-flex align-items-start border border-warning rounded p-4 tab-servicio shadow">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active text-dark" id="v-pills-castracion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-castracion" type="button" role="tab" aria-controls="v-pills-castracion" aria-selected="true">Castración</button>
+                            <button class="nav-link text-dark" id="v-pills-esterilizacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-esterilizacion" type="button" role="tab" aria-controls="v-pills-esterilizacion" aria-selected="false">Esterilización</button>
+                            <button class="nav-link text-dark" id="v-pills-vacunacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-vacunacion" type="button" role="tab" aria-controls="v-pills-vacunacion" aria-selected="false">Vacunación</button>
+                            <button class="nav-link text-dark" id="v-pills-imagenologia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-imagenologia" type="button" role="tab" aria-controls="v-pills-imagenologia" aria-selected="false">Imagenología</button>
+                            <button class="nav-link text-dark" id="v-pills-laboratorio-tab" data-bs-toggle="pill" data-bs-target="#v-pills-laboratorio" type="button" role="tab" aria-controls="v-pills-laboratorio" aria-selected="false">Laboratorio</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-castracion" role="tabpanel" aria-labelledby="v-pills-castracion-tab" tabindex="0">
+                                <p class="fw-bolder">Castración:</p>
+                                <p>Procedimiento quirúrgico, que consiste en la extracción de los testículos.</p>
+                                <p>Beneficios:</p>
+                                <ul>
+                                    <li>Evita territorialidad.</li>
+                                    <li>Evita tumores.</li>
+                                    <li>Evita enfermedades venéreas.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-esterilizacion" role="tabpanel"
+                                aria-labelledby="v-pills-esterilizacion-tab" tabindex="0">
+                                <p class="fw-bolder">Esterilización:</p>
+                                <p>Procedimiento quirúrgico, que consiste en la extracción de la mayor parte del aparato reproductor en las hembras.</p>
+                                <p>Beneficios:</p>
+                                <ul>
+                                    <li>Evita el celo cada semestre.</li>
+                                    <li>Evita preñeces.</li>
+                                    <li>Evita tumores.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-vacunacion" role="tabpanel"
+                                aria-labelledby="v-pills-vacunacion-tab" tabindex="0">
+                                <p class="fw-bolder">Vacunación:</p>
+                                <p>Llevar correctamente el esquema de vacunación nos previene de enfermedades futuras y tu mascota crecerá sana y fuerte. </p>
+                            </div>
+                            <div class="tab-pane fade show" id="v-pills-imagenologia" role="tabpanel" aria-labelledby="v-pills-imagenologia-tab" tabindex="0">
+                                <p class="fw-bolder">Imagenología:</p>
+                                <p>En la ecografía podemos encontrar un agrandamiento anormal de los órganos abdominales, cambios en la característica de su forma y su densidad normal; hallazgos anormales relacionados a procesos de trauma o diferentes procesos patológicos asociados a enfermedades oncológicas, renales, hepáticas, hematológicas, reproductivas, entre otras. </p>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-laboratorio" role="tabpanel" aria-labelledby="v-pills-laboratorio-tab" tabindex="0">
+                                <p class="fw-bolder">Laboratorio:</p>
+                                <p>Laboratorio clínico, para conocer el estado real de Tu mascota.</p>
+                                <ul>
+                                    <li>Cuadros hemáticos.</li>
+                                    <li>Perfiles renales.</li>
+                                    <li>Rayos X.</li>
+                                    <li>Perfiles hepáticos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 col-lg-6">
+                    <img src="img/ser-veterinaria.jpg" class="img-fluid rounded" alt="Operación a un gato">
+                </div>
+            </div>
+        </section>
+        <section class="container py-5">
+            <article class="text-center">
+                <h2 class="d-inline-block border-bottom border-warning pb-2" id="peluqueria">Peluquería</h2>
+                <p>Nuestro servicio de peluquería no solo se enfoca en la estética, sino también en la salud y bienestar de tu mascota. Por ello, contamos con profesionales estan atentos a cualquier anomalía en la piel o pelaje de la mascota y tomar las medidas necesarias para tratarla o derivarla al veterinario correspondiente.</p>
+            </article>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 ">
+                    <div class="d-flex align-items-start border border-warning rounded p-4 tab-servicio shadow">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active text-dark" id="v-pills-pelo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pelo" type="button" role="tab" aria-controls="v-pills-pelo" aria-selected="true">Pelo</button>
+                            <button class="nav-link text-dark" id="v-pills-unas-tab" data-bs-toggle="pill" data-bs-target="#v-pills-unas" type="button" role="tab" aria-controls="v-pills-unas" aria-selected="false">Uñas</button>
+                            <button class="nav-link text-dark" id="v-pills-bano-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bano" type="button" role="tab" aria-controls="v-pills-bano" aria-selected="false">Baño</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-pelo" role="tabpanel" aria-labelledby="v-pills-pelo-tab" tabindex="0">
+                                <p class="fw-bolder">Corte de pelo:</p>
+                                <p>El corte de pelo de las mascotas es una tarea importante que debe ser realizada regularmente para mantener la salud y la apariencia de su mascota. Al elegir un estilo de corte de pelo, consideramos la raza, el estilo de vida y el temperamento de tu mascota para encontrar el estilo adecuado.</p>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-unas" role="tabpanel" aria-labelledby="v-pills-unas-tab" tabindex="0">
+                                <p class="fw-bolder">Corte de uñas:</p>
+                                <p>El corte de uñas de las mascotas es una parte importante del cuidado general de su salud y bienestar. Si las uñas de una mascota no se cortan regularmente, pueden crecer demasiado y causar dolor e incomodidad al caminar y correr.</p>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-bano" role="tabpanel" aria-labelledby="v-pills-bano-tab" tabindex="0">
+                                <p class="fw-bolder">Baño:</p>
+                                <p>Bañar a las mascotas regularmente puede ayudar a mantener su piel y pelaje limpios y saludables, reducir el olor y prevenir infecciones.Con los cuidados y precauciones adecuados, puede ser una experiencia agradable tanto para el dueño como para la mascota.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 col-lg-6">
+                    <img src="img/peluqueria-ser.jpg" class="img-fluid rounded" alt="Peinado a un perro">
+                </div>
+            </div>
+        </section>
+        <section class="container pb-5">
+            <article class="text-center">
+                <h2 class="d-inline-block border-bottom border-warning pb-2" id="guarderia">Guardería</h2>
+                <p>En nuestra guardería de mascotas, nos enorgullecemos de ofrecer un ambiente seguro y acogedor para todas las mascotas que cuidamos.Tu mascota estará en buenas manos mientras estás fuera de casa. También cuentan con protocolos de seguridad y medidas de emergencia para garantizar la seguridad de todas las mascotas alojadas en el centro.</p>
+            </article>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-lg-1">
+                    <div class="d-flex align-items-start border border-warning rounded p-4 tab-servicio shadow">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active text-dark" id="v-pills-cuidado-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cuidado" type="button" role="tab" aria-controls="v-pills-cuidado" aria-selected="true">Cuidado</button>
+                            <button class="nav-link text-dark" id="v-pills-recreacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-recreacion" type="button" role="tab" aria-controls="v-pills-recreacion" aria-selected="false">Recreación</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-cuidado" role="tabpanel" aria-labelledby="v-pills-cuidado-tab" tabindex="0">
+                                <p class="fw-bolder">Cuidado:</p>
+                                <p>Nos aseguramos de que su mascota esté siempre supervisada por nuestro personal durante todo el tiempo que esté en la guardería.</p>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-recreacion" role="tabpanel" aria-labelledby="v-pills-recreacion-tab" tabindex="0">
+                                <p class="fw-bolder">Recreación:</p>
+                                <p>Ofrecemos una variedad de actividades para mantener a su mascota feliz y ocupada mientras está con nosotros, incluyendo juegos y tiempo de socialización con otros animales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  mt-3 col-lg-6">
+                    <img src="img/ser-guarderia.jpg" class="img-fluid rounded" alt="Dos perros jugando">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container p-5">
+            <div class="row">
+                <div class="text-center col-md-6 text-md-start">
+                    <p class="m-0">&copy 2023 Mascota Amigo. Todos los derechos reservados.</p>
+                    <a href="contacto.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a>
+                    <p class="m-0">info@mascotamigo.com</p>
+                </div>
+                <div class="text-center col-md-6 text-md-end">
+                    <p class="m-1">Siguenos en nuestras redes sociales:</p>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

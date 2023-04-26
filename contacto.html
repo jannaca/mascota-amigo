@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Icono -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mascota Amigo</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Menu de Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" ><img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top mx-2">Mascota Amigo</a>
+                <button class="navbar-toggler border-light-subtle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link link-light" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" aria-current="page" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="clientes.html">Nuestros Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link link-light" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="text-center my-5">
+                <h3 class="fst-italic d-inline-block border-bottom border-warning pb-2">Estamos aquí para ayudarte en lo que necesites.</h3>
+            </div>
+        </section>
+
+        <section class="container-fluid d-flex justify-content-center caja-presentacion-ser">
+            <div class="py-4 text-center">
+                <h1 class="p-3 text-white">CONTACTO</h1>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="text-center mt-4">
+                <p class="mb-0">Para ponerte en conacto con nosotros o agendar tu cita, rellena el siguiente formulario o envianos un correo a info@mascotaamgio.com</p>
+                <p class="mb-0">¡Te responderemos con la mayor brevedad posible!</p>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 d-none d-lg-block">
+                    <img src="img/contacto2.jpg " class="img-fluid rounded" alt="Perro fondo gris">
+                </div>
+
+                <!-- FORMULARIO -->
+                <div class="col-lg-7 ">
+                    <form class="row g-3 border border-warning rounded shadow p-2 m-3">
+                        <label for="datos-personales" class="form-label m-0 fw-bold">Datos personales</label>
+                        <div class="col-md-6">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" minlength="2" maxlength="20" required pattern="[A-Za-zÑñÁáÉéÍíÓóÚú]+" title="Sólo Letras. Tamaño mínimo: 2. Tamaño máximo: 20" id="nombre">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido"  minlength="2" maxlength="20" required pattern="[A-Za-zÑñÁáÉéÍíÓóÚú]+" title="Sólo Letras. Tamaño mínimo: 2. Tamaño máximo: 20">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" class="form-label" minlength="4" maxlength="80" required title="Sólo Correo Electrónico. Tamaño mínimo: 4. Tamaño máximo: 80">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row g-3 align-items-end">
+                                <div class="col-6">
+                                    <label for="telefono" class="form-label m-0">Teléfono</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option value="0412">0412</option>
+                                        <option value="0414">0414</option>
+                                        <option value="0424">0424</option>
+                                        <option value="0416">0416</option>
+                                        <option value="0426">0426</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="telefono" minlength="7" maxlength="7" required title="Sólo Números. Mínimo: 7. Máximo: 7" pattern="[0-9]+">
+                                </div>
+                            </div>
+                        </div>
+                        <label for="datos-mascota" class="form-label mb-0 fw-bold">Datos de la mascota</label>
+                        <div class="col-md-5">
+                            <label for="nombre-mascota" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre-mascota" minlength="2" maxlength="20" required pattern="[A-Za-zÑñÁáÉéÍíÓóÚú]+" title="Sólo Letras. Tamaño mínimo: 2. Tamaño máximo: 20">
+                        </div>
+                        <div class="col-7">
+                            <div class="d-md-inline-block">
+                                <label for="especie" class="form-label d-block">Especie</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="especieOpciones" id="especiePerro" value="option1" required>
+                                    <label class="form-check-label" for="especiePerro">Perro</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="especieOpciones" id="especieGato" value="option2">
+                                        <label class="form-check-label" for="especieGato">Gato</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-md-inline-block">
+                                <label for="especie" class="form-label d-block">Género</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="generoOpciones" id="genero-macho" value="option1" required>
+                                    <label class="form-check-label" for="genero-macho">Macho</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="generoOpciones" id="genero-hembra" value="option2">
+                                    <label class="form-check-label" for="genero-hembra">Hembra</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="raza-mascota" class="form-label">Raza</label>
+                            <input type="text" class="form-control" id="raza-mascota">
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <label for="edadMascota" class="form-label">Edad</label>
+                            <input type="number" class="form-control" id="edadMascota" min="0" max="30" required title="Sólo Números. Mínimo: 0. Máximo: 30">
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <label for="pesoMascota" class="form-label" min="0" max="999" title="Sólo Números. Mínimo: 0. Máximo: 999">Peso</label>
+                            <input type="number" class="form-control" id="pesoMascota">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="servicioRequerido" class="form-label d-block">Servicio requerido</label>
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="servicioVeterinaria">
+                                <label class="form-check-label" for="servicioVeterinaria"> Veterinaria </label>
+                            </div>
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="servicioPeluqueria">
+                                <label class="form-check-label" for="servicioPeluqueria"> Peluquería </label>
+                            </div>
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="servicioGuarderia">
+                                <label class="form-check-label" for="servicioGuarderia"> Guardería </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label">Suba una foto de su mascota</label>
+                                <input class="form-control" type="file" id="formFile" accept=".jpg,.jpeg,.png">
+                                <small id="archivoHelpBlock" class="form-text text-muted">Máximo 5Mb con extensión: .jpg .jpeg .png</small>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="fechaCita" class="form-label">Fecha para agendar tu cita</label>
+                            <input class="form-control" type="date" id="fechaCita" min="2023-04-01" max="2023-12-31" title="Sólo Fecha. Fecha mínima: 01-04-2023. Fecha máxima: 31-12-2023">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Deje aquí un comentario o requerimiento especial" id="floatingTextarea2" style="height: 100px" maxlength="500"></textarea>
+                                <label for="floatingTextarea2">Comentario</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-dark btn-2 border-0">Enviar</button>
+                            <button type="reset" class="btn btn-dark btn-2 border-0">Restablecer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container p-5">
+            <div class="row">
+                <div class="text-center col-md-6 text-md-start">
+                    <p class="m-0">&copy 2023 Mascota Amigo. Todos los derechos reservados.</p>
+                    <a href="contacto.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a>
+                    <p class="m-0">info@mascotamigo.com</p>
+                </div>
+                <div class="text-center col-md-6 text-md-end">
+                    <p class="m-1">Siguenos en nuestras redes sociales:</p>
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-2 border btn-outline-light">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/* MENU */
+
+.navbar {
+  background-color: #004776;
+}
+
+.navbar a:hover {
+  color: #f2b707;
+}
+
+/* ESTILOS */
+
+.caja-presentacion-home, .caja-presentacion-ser {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(101, 187, 235, 0.5)
+    ),
+    url("../img/fondo2.jpg");
+}
+.caja-presentacion-home{
+  padding: 100px;
+}
+
+.caja-presentacion-home h1{
+  font-size: 3rem;
+}
+.caja-presentacion-home h1,
+.caja-presentacion-ser h1 {
+  background-color: #004776;
+}
+
+h2,
+h3,h4,h5 {
+  color: #004776;
+}
+
+.servicios-icon {
+  width: 100px;
+}
+
+.btn-1 {
+  background-color: #f2b707c2;
+}
+
+.btn-1:hover {
+  background-color: #004776;
+  color: #fff;
+}
+
+.caja-azul {
+  background-color: rgba(101, 187, 235, 0.5);
+}
+
+/* --- PANELES --- */
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #f2b707c2;
+}
+
+.tab-pane > p, ul {
+    color: #004776
+}
+
+.tab-servicio{
+    background-color: #edededd9;
+}
+
+/* --- CARRUSEL --- */
+
+.carousel .carousel-item {
+  max-height:600px;
+}
+
+.carousel-bg{
+  background-color: #f1c23397 ;
+}
+
+/* PIE DE PAGINA */
+footer {
+  background-color: #ededed;
+}
+
+.btn-2 {
+  background-color: #004776;
+}
+
+.btn-2:hover {
+  background-color: #f2b707c2;
+  color: #000;
+}
+
+
