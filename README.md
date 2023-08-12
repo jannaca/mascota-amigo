@@ -1,5 +1,3 @@
-# mascota-amigo
-Pagina web de servicios para mascota
 <h1 align="center"> -----🐾 Mascota amigo 🐾----- </h1>
 <p align="center">Sito web orientada al cuidado de tu mascota. Nuestro equipo está comprometido con brindar los mejores cuidados y soluciones integrales para el bienestar de tus amigos peludos.</p>
 
